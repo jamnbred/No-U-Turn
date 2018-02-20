@@ -227,6 +227,7 @@ def advance(avelocity):
     except:
         SThelperNew.takeScreenshot('No Advance', 'Valid input given but advance did not occur, check main body of advance function')
         return
+<<<<<<< HEAD
 #Simple replay function, pass TRUE or FALSE if you want the screenshot taken as well
 def replayfeed(takeShot):
     if takeShot != TRUE:
