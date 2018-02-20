@@ -229,7 +229,7 @@ def advance(avelocity):
         return
 #Simple replay function, pass TRUE or FALSE if you want the screenshot taken as well
 def replayfeed(takeShot):
-    if takeShot != TRUE:
+    if takeShot != True:
         StormTest.PressButton(REPLAY)
         StormTest.WaitSec(3)
     else:
