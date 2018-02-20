@@ -227,7 +227,6 @@ def advance(avelocity):
     except:
         SThelperNew.takeScreenshot('No Advance', 'Valid input given but advance did not occur, check main body of advance function')
         return
-<<<<<<< HEAD
 #Simple replay function, pass TRUE or FALSE if you want the screenshot taken as well
 def replayfeed(takeShot):
     if takeShot != TRUE:
@@ -237,6 +236,11 @@ def replayfeed(takeShot):
         StormTest.PressButton(REPLAY)
         StormTest.WaitSec(3)
         SThelperNew.takeScreenshot('Replay test', 'Feed is replayed')
+#Simple replay function
+def replayfeed():
+    StormTest.PressButton(REPLAY)
+    StormTest.WaitSec(3)
+    SThelperNew.takeScreenshot('Replay test', 'Feed is replayed')
 #open guide helper function, simply call it like so openguide()
 def openguide():
     StormTest.PressButton(GUIDE)
