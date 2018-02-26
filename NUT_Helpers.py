@@ -272,13 +272,6 @@ def test():
 # Syntax for wait time:     		   	StormTest.WaitSec(<Positive_Integer>)
 # Syntax for creating Step/Screenshot:	SThelperNew.takeScreenshot('<Step Name>', '<Verification(S)>')
 
-    #Wake the boxes being used before starting any tests.
-    wakebox()
-    pausefeed()
-    StormTest.WaitSec(300)
-    playfeed()
-    advance(3)
-#TEST
 
 #########################################################
 ###<><><> SCRIPT EDITING AREA ABOVE THIS LINE <><><><>###
